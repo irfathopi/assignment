@@ -1,3 +1,7 @@
+
+
+
+
 // problem 1
 function feetToMile(feet){
     var mile = feet/5280;               // 5280 feet = 1 mile
@@ -6,6 +10,8 @@ function feetToMile(feet){
 var yourFeetAmount = feetToMile(50000);
 yourFeetAmount = yourFeetAmount.toFixed(6);
 console.log(yourFeetAmount, 'Mile')
+
+
 
 
 
@@ -22,26 +28,35 @@ console.log(yourFeetAmount, 'Mile')
  console.log(totalQuebecYouNeed, 'Quebec Feet');
 
 
+
+
+
+
 // problem 3
 function brickCalculator(n){
     if( n < 0){
-        console.log('you cant go to the negative site')
+        console.log('you cant go to the negative site');
     }
     else if (n < 10){
         groundFloor =  console.log( n * (15*1000));
+        
     }
     else if ( n > 10 && n <=20 ){
        middleFloor =  console.log( n * (12*1000));
+       
     }
     else{
        topFloor = console.log( n * (10*1000));
+       
     }
 
-    // totalBrick = brickCalculator(groundFloor + middleFloor + topFloor);
+    // var totalBrick = first + second + third;
     // return totalBrick;
 }
-var totalBrickNeed = brickCalculator(19);
+var totalBrickNeed = brickCalculator(12);
 console.log(totalBrickNeed);
+
+
 
 
 
