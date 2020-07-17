@@ -50,10 +50,10 @@ function brickCalculator(n){
        
     }
 
-    // var totalBrick = first + second + third;
+    // var totalBrick = groundFloor + middleFloor + TopFloor;       // its not working
     // return totalBrick;
 }
-var totalBrickNeed = brickCalculator(12);
+var totalBrickNeed = brickCalculator(67);
 console.log(totalBrickNeed);
 
 
