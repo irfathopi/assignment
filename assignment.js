@@ -23,24 +23,25 @@ console.log(yourFeetAmount, 'Mile')
 
 
 // problem 3
-function brickCalculator(){
-    
-    oneToTen = 15 * 1000;
-    elevenToTwenty = 12 * 1000;
-    extra = 10 * 1000;
+function brickCalculator(n){
+    if( n < 0){
+        console.log('you cant go to the negative site')
+    }
+    else if (n < 10){
+        groundFloor =  console.log( n * (15*1000));
+    }
+    else if ( n > 10 && n <=20 ){
+       middleFloor =  console.log( n * (12*1000));
+    }
+    else{
+       topFloor = console.log( n * (10*1000));
+    }
 
-    if ( oneToTen){
-        console.log(oneToTen)
-    }
-    else if (elevenToTwenty){
-        console.log(elevenToTwenty);
-    }
-        else{
-            console.log(extra);
-        } 
-    
+    // totalBrick = brickCalculator(groundFloor + middleFloor + topFloor);
+    // return totalBrick;
 }
-
+var totalBrickNeed = brickCalculator(19);
+console.log(totalBrickNeed);
 
 
 
