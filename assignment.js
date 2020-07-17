@@ -2,7 +2,6 @@
 function feetToMile(feet){
     var mile = feet/5280;               // 5280 feet = 1 mile
     return mile;
-    
 }
 var yourFeetAmount = feetToMile(50000);
 yourFeetAmount = yourFeetAmount.toFixed(6);
@@ -12,7 +11,6 @@ console.log(yourFeetAmount, 'Mile')
 
 
 // problem 2
-
  function woodCalculator(chair, table, bed){
     var quebecFeetForChair = chair * 1;
     var quebecFeetForTable = table * 2;
